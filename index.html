@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <title>Task Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <div class="task-tracker">
+            <h1>Task Tracker</h1>
+            <form class="input-area">
+                <input id="task-input" type="text" placeholder="Add a new task ...">
+                <button type="submit" id="add-task-btn"><i class="fa-solid fa-plus"></i></button>
+            </form>
+            <div class="todos-container">
+                <ul id="task-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>
